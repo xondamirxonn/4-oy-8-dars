@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-text img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  
+}
+
+.material-icons-outlined {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 35px;
+}
+
+.logo-text {
+  border-bottom: 1px double gray;
+  
+}
+
+.asosiy{
+  border: 1px solid black;
+  height: 100vh;
+}
+
+
+.links:hover{
+  background-color: #497ce3;
+  cursor: pointer;
+}
+
+.links:active{
+  color: white;
+}
+
+.blue-card{
+  width: 300px;
+  height: 120px;
+  background-color: #497ce3;
+
+}
+
+.asosiy2{
+  height: 100vh;
+}
+
+.green-card{
+    width: 300px;
+  height: 120px;
+}
+
+.red-card{
+    width: 300px;
+  height: 120px;
+}
+
+.dashboard-static{
+  margin-left:15rem;
+}

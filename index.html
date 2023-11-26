@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css
+"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="cont d-flex flex-row">
+      <div class="asosiy w-25">
+        <div class="position-fixed">
+          <div class="p logo-text d-flex align-items-center p-3 gap-2">
+            <img src="img/logo.jpeg" alt="logo" />
+            <h2>Admin Panel</h2>
+          </div>
+          <div class="links d-flex align-items-center p-3 gap-3">
+            <span class="material-symbols-outlined">dashboard</span>
+            <a class="text-dark text-decoration-none h3" href="dashboard.html">dashboard</a>
+          </div>
+
+          <div class="links d-flex align-items-center p-3 gap-3">
+            <i class="fa-solid fa-users fa-2x"></i>
+            <a class="text-dark text-decoration-none h3" href="index.html">Users</a>
+          </div>
+
+          <div class="links d-flex align-items-center p-3 gap-3">
+            <span class="material-symbols-outlined"> inventory </span>
+            <h3 id="product">Product</h3>
+          </div>
+
+          <div class="links d-flex align-items-center p-3 gap-3">
+            <span class="material-symbols-outlined"> orders </span>
+            <h3 id="orders">Orders</h3>
+          </div>
+        </div>
+      </div>
+      <div class="asosiy2 w-75">
+        <div class="bg-dark">
+          <div
+            class="d-flex justify-content-between align-items-center container"
+          >
+            <form class="p-3">
+              <input class="search" type="search" placeholder="Search" />
+              <button>Go</button>
+            </form>
+            <img class="img2" src="img/logo.jpeg" alt="" />
+          </div>
+          <h1 class="text-center text-white p-3">USERS</h1>
+        </div>
+
+        <div>
+          <div
+            class="bg-dark p-3 d-flex align-items-center gap-3 justify-content-around container"
+          >
+            <h1 class="text-white list-h1">Manage Employees</h1>
+
+            <div>
+              <button id="delete" class="btn btn-danger">
+                <i class="fa-solid fa-circle-minus"></i> Delete
+              </button>
+              <button class="btn btn-success">
+                <i class="fa-solid fa-circle-plus"></i> Add New Employees
+              </button>
+            </div>
+          </div>
+
+          <ul class="list-unstyled" id="users"></ul>
+          <!-- <div class="d-flex justify-content-between text-start gap-5 px-5">
+        <input class="check" type="checkbox">
+        <h4>Name</h4>
+        <h4>Email</h4>
+        <h4>Address</h4>
+        <h4>Phone</h4>
+        <h4>Actions</h4>
+      </div>
+      <div class="list1 d-flex justify-content-around gap-0  px-5">
+     <input class="check" type="checkbox">
+     <p>Thamas Hardy</p>
+     <p>ThamasHardy@gmail.com</p>
+     <p>90r Parkground Paland Usa.</p>
+     <p>(78-582552-9)</p>
+   <div class="d-flex buttons ">
+      <button><i class="fa-solid fa-pencil " style="color: yellow;  "></i></button>
+     <button><i class="fa-solid fa-trash" style="color: red;"></i></button>
+   </div>
+      </div> -->
+
+          <!-- <form class="container" >
+    <input class="input " type="text" placeholder="So'z kiriting">
+
+    <button class="buttonn text-bg-success" type="submit">Qo'shish</button>
+    <button id="resett" class="text-bg-danger" type="reset">All Delete</button>
+  </form> 
+
+  <ul></ul> -->
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

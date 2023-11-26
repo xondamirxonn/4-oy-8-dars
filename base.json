@@ -1,0 +1,94 @@
+{
+  "users":[
+    {
+      "first_name": "John",
+      "last_name": " Doe",
+      "email": "john.doe@example.com",
+      "age": 25,
+      "img_url": "https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "securepassword123"
+    },
+
+    {
+      "first_name": "Alice",
+      "last_name": " Smith",
+      "email": "alice.smith@example.com",
+      "age": 30,
+      "img_url": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "strongpassword456"
+    },
+
+    {
+      "first_name": "Michael",
+      "last_name": " Johnson",
+      "email": "michael.johnson@example.com",
+      "age": 22,
+      "img_url": "https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "mypassword789"
+    },
+
+    {
+      "first_name": "Emily",
+      "last_name": " Brown",
+      "email": "emily.brown@example.com",
+      "age": 28,
+      "img_url": "https://images.pexels.com/photos/1080213/pexels-photo-1080213.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "secure1234"
+    },
+
+    {
+      "first_name": "David",
+      "last_name": " Wilson",
+      "email": "david.wilson@example.com",
+      "age": 35,
+      "img_url": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "mypassword5678"
+    },
+
+    {
+      "first_name": "Ethan",
+      "last_name": " White",
+      "email": "ethan.white@example.com",
+      "age": 33,
+      "img_url": "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "whitepass456"
+    },
+
+    {
+      "first_name": "Emma",
+      "last_name": " Anderson",
+      "email": "emma.anderson@example.com",
+      "age": 28,
+      "img_url": "https://images.pexels.com/photos/2613260/pexels-photo-2613260.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "emma789pass"
+    },
+
+    {
+      "first_name": "Mason",
+      "last_name": " Brown",
+      "email": "mason.brown@example.com",
+      "age": 29,
+      "img_url": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "brownpass123"
+    },
+
+    {
+      "first_name": "Chloe",
+      "last_name": " Taylor",
+      "email": "chloe.taylor@example.com",
+      "age": 24,
+      "img_url": "https://images.pexels.com/photos/6801642/pexels-photo-6801642.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "chloe456pass"
+    },
+
+    {
+      "first_name": "Liam",
+      "last_name": " Wilson",
+      "email": "liam.wilson@example.com",
+      "age": 27,
+      "img_url": "https://images.pexels.com/photos/5486199/pexels-photo-5486199.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "password": "liamwilson789"
+    }
+  ]
+}
+
